@@ -1,0 +1,80 @@
+html { 
+  background: url(https://img.freepik.com/free-photo/abstract-communication-technology-network-concept_34629-641.jpg?size=626&ext=jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+body {
+	text-align:center;
+	font-family:Helvetica, sans-serif;
+	color:rgb(255,255,255);
+}
+
+.title {
+	color:rgb(255,255,255);
+}
+
+p {
+	color:rgb(255,255,255);
+}
+
+label {
+	color:rgb(255,255,255);
+	
+}
+
+.firstName, .lastName, .username, .password, .address, .mob, .email{
+	color:rgb(0,0,0);
+	width:50%;
+	padding:9px;
+	
+
+} 
+
+
+.container {
+	background-color:rgba(255,255,255,0.4);
+	padding:25px;
+	width:40%;
+	margin:auto;
+	border-radius:75px;
+}
+
+select {
+	padding:9px;
+}
+
+.radio {
+	padding:0px;
+}
+
+button {
+	padding:25px;
+	border-radius:75px;
+	font-size:1.2em;
+	width:50%;
+}
+
+button:hover {
+	background-color:green;
+	cursor:pointer;
+
+}
+
+.intro {
+	width:40%;
+	padding:25px;
+	margin:auto;
+	text-align:center;
+}
+
+.submit {
+	padding:25px;
+	background-color:white;
+	border-radius:75px;
+	
+}

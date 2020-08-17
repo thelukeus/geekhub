@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GeekHub</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+	<img src="logo.png" height="300" width="300">
+	<h1>Contact Us @ GeekHub</h1>
+	<div class="intro">
+	<p> At GeekHub we specialise in Digital!</p>
+	<p>As the world is evolving, so is the technology we use, here at GeekHub we want everyone to feel comfortable using tech so we are helping out any way we can. From tips on how to use certain digital products, to guidance on the best software we can aid you in gaining knowledge and experience when it comes to technology.</p>
+	<p>Please contact us with any queries you have and we will get back to you as soon as we can</p>
+</div>
+
+	<div class="container">
+
+		<h2 class="title">Contact Us</h2>
+
+	<form action="mail.php" method="POST">
+		<input class="firstName" type="text" name="firstName" placeholder="Enter your first name"><br><br>
+		<input class="lastName" type="text" name="lastName" placeholder="Enter your last name"><br><br>
+		<input class="email" type="email" name="email" placeholder="Enter your email">
+		<br><br>
+		<h3><strong>Enquiry</strong></h3>
+		<select id="enquiry">
+			<option value="software">Software issues</option>
+			<option value="hardware">Hardware issues</option>
+			<option value="guide">Computer guidance</option>
+		</select><br><br>
+		<h3><strong>Contact method</strong></h3>
+		<input type="radio" name="contact" id="Phone" value="phone">Phone
+		<input type="radio" name="contact" id="email" value="email">Email
+		<br><br>
+
+		<h3><strong>Message<strong></h3><textarea name="message" rows="16" cols="64"></textarea>
+			<br>
+
+			<input class="submit" type="submit" value="Send">
+	</form>
+
+</body>
+</html>
